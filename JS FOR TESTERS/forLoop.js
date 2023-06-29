@@ -1,3 +1,5 @@
-for(let oddNumber = 0; oddNumber<=20; oddNumber= oddNumber+3){
-    console.log(oddNumber + " oddNumber")
+for(let oddNumber = 1; oddNumber<=20; oddNumber= oddNumber+2){
+    if(oddNumber % 2 !== 0){ console.log(oddNumber + " is an oddNumber")}else{
+        console.log( oddNumber + " is an evenNumber")
+    }
 }

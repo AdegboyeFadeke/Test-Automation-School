@@ -16,7 +16,7 @@ const myPersonalLibrary= {
             isReading: false,
         },
         {
-            title: "Build to last",
+            title: "Build to last",                                                                                               
             description: "Christain book",
             numberOfPages: 200,
             author: "Chris Segun Onayinka",
@@ -34,13 +34,13 @@ const myPersonalLibrary= {
             description: "Christain book",
             numberOfPages: 208,
             author: "Chris Segun Onayinka",
-             isReading: true,
+             isReading: false,
         },
         {
             title: "Honor",
             description: "Christain book",
             numberOfPages: 500,
-            author: "Candance Camp",
+            author: "Chris Segun Onayinka",
             isReading: false,
         },
         {
@@ -48,22 +48,21 @@ const myPersonalLibrary= {
             description: "Inspirational story",
             numberOfPages: 400,
             author: "Ben Carson",
-            isReading: false,
+            isReading: true,
         }
     ],
     
     toggleReadingStatus: function(){
-        for(let myPersonalLibrary.books.isReading === true){
-            books.isReading = false
-        }else {
-            books.isReading = true
-        }
+        for(let i = 0; i < myPersonalLibrary.books.length; i++){
+            if(myPersonalLibrary.books[i].isReading === true){
+                console.log(i, "=>", myPersonalLibrary.books[i])
+            }
+          
     }
  }
+}
 
 //  console.log(books['author']);
 //  console.log(books['numberOfPages']);
 //  console.log(books['description']);
-//  console.log(books['title']);
-books.toggleReadingStatus()
- console.log(books.isReading);
+ myPersonalLibrary.toggleReadingStatus();

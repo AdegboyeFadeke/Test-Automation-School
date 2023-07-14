@@ -16,7 +16,7 @@ const myPersonalLibrary= {
             isReading: false,
         },
         {
-            title: "Build to last",                                                                                               
+            title: "Build to last",                        
             description: "Christain book",
             numberOfPages: 200,
             author: "Chris Segun Onayinka",

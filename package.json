@@ -2,7 +2,7 @@
   "name": "test-automation_school",
   "version": "1.0.0",
   "description": "Creating Node js ",
-  "main": "task 16.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

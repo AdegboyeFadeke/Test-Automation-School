@@ -1,0 +1,42 @@
+{
+  "args": {},
+  "data": {
+    "bookId": 1,
+    "customerName": "Fadeke",
+    "name": "{{name}}",
+    "author": "James Patterson and James O. Born",
+    "isbn": "1780899475",
+    "type": "fiction",
+    "price": 12.98,
+    "current-stock": 12,
+    "available": true
+  },
+  "files": {},
+  "form": {},
+  "headers": {
+    "x-forwarded-proto": "https",
+    "x-forwarded-port": "443",
+    "host": "postman-echo.com",
+    "x-amzn-trace-id": "Root=1-64d4f0ba-28cfe45011314a372dc00e9e",
+    "content-length": "246",
+    "authorization": "Bearer {{accessToken}}",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.29.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "e521ddac-c48f-4df9-8771-5d7b287bbe96",
+    "accept-encoding": "gzip, deflate, br"
+  },
+  "json": {
+    "bookId": 1,
+    "customerName": "Fadeke",
+    "name": "{{name}}",
+    "author": "James Patterson and James O. Born",
+    "isbn": "1780899475",
+    "type": "fiction",
+    "price": 12.98,
+    "current-stock": 12,
+    "available": true
+  },
+  "url": "https://postman-echo.com/post"
+}

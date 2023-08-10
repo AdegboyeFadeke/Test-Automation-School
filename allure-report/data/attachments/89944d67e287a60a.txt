@@ -1,0 +1,55 @@
+var jsonData = pm.response.json();
+console.log(jsonData.data)
+
+pm.test("status code is 200", () => {
+    pm.response.to.have.status(200);
+});
+
+pm.test("The book name is The Russian", function () {
+    pm.expect(jsonData.data.name).to.eql("{{name}}");
+});
+
+
+pm.test("Response status code is 200", function () {
+    pm.expect(pm.response.code).to.equal(200);
+});
+
+
+pm.test("The 'data' object is present in the response", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.data).to.exist;
+});
+
+
+pm.test("The data object contains the required fields", function () {
+    const responseData = pm.response.json();
+    const requiredFields = ["bookId", "customerName", "name", "author", "isbn", "type", "price", "current-stock", "available"];
+
+    pm.expect(responseData.data).to.exist.and.to.be.an('object');
+
+    requiredFields.forEach(function (field) {
+        pm.expect(responseData.data[field]).to.exist;
+    });
+});
+
+
+pm.test("Headers object is present in the response", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData.headers).to.exist;
+});
+
+
+pm.test("Headers object contains the required fields", function () {
+    const responseData = pm.response.json();
+    const requiredFields = ["x-forwarded-proto", "x-forwarded-port", "host", "x-amzn-trace-id", "content-length", "content-type", "authorization", "user-agent"];
+
+    pm.expect(responseData.headers).to.be.an('object');
+
+    requiredFields.forEach(function (field) {
+        pm.expect(responseData.headers[field]).to.exist;
+    });
+});
+

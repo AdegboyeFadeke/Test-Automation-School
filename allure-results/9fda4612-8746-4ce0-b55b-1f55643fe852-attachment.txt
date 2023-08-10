@@ -1,0 +1,45 @@
+pm.test("check if the id number of untamed is 5", function () {
+    var jsonData = pm.response.json();
+    console.log(jsonData.name)
+    pm.expect(jsonData.id).to.eql(5);
+});
+
+
+
+pm.test("Response status code is 200", function () {
+    pm.expect(pm.response.code).to.equal(200);
+});
+
+
+pm.test("Validate the id field", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.id).to.exist.and.to.be.a('number');
+});
+
+
+pm.test("Validate the name field", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.name).to.exist.and.to.be.a('string', "Name should be a string");
+    pm.expect(responseData.name).to.have.lengthOf.at.least(1, "Name should not be empty");
+});
+
+
+pm.test("Validate the author field", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.author).to.exist.and.to.be.a('string').and.to.not.be.empty;
+});
+
+
+pm.test("Validate the type field", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.type).to.exist.and.to.be.a('string');
+});
+

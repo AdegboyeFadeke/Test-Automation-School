@@ -1,0 +1,47 @@
+pm.test("status code is 200", () => {
+    pm.response.to.have.status(200);
+});
+
+
+pm.test("Response status code is 200", function () {
+    pm.expect(pm.response.code).to.equal(200);
+});
+
+
+pm.test("Response has required fields", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData).to.have.property('data');
+    pm.expect(responseData.data).to.be.an('object');
+    pm.expect(responseData.data).to.have.property('bookId');
+    pm.expect(responseData.data).to.have.property('customerName');
+    pm.expect(responseData.data).to.have.property('bookName');
+});
+
+
+pm.test("bookId is a non-negative integer", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.json.bookId).to.exist.and.to.be.a('number').and.to.satisfy(function (value) {
+        return value >= 0;
+    }, "Value should be a non-negative integer");
+});
+
+
+pm.test("Customer name is a non-empty string", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.data.customerName).to.be.a('string').and.to.have.lengthOf.at.least(1, "Value should not be empty");
+});
+
+
+pm.test("bookName should be a non-empty string", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.json.bookName).to.be.a('string').and.to.have.lengthOf.at.least(1, "Value should not be empty");
+});
+

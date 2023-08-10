@@ -1,0 +1,44 @@
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+pm.test("Response status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+pm.test("Validate the response body is an array", function () {
+    pm.expect(pm.response.json()).to.be.an('array');
+});
+
+
+pm.test("Validate the 'id' field is a non-negative integer", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('array');
+    responseData.forEach(function (book) {
+        pm.expect(book.id).to.be.a('number').and.to.be.at.least(0);
+    });
+});
+
+
+pm.test("Validate the 'name' field is a non-empty string", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('array');
+    responseData.forEach(function (book) {
+        pm.expect(book.name).to.be.a('string').and.to.have.lengthOf.at.least(1, "Value should not be empty");
+    });
+});
+
+
+pm.test("Validate the 'type' field is a non-empty string", function () {
+    const responseData = pm.response.json();
+
+    responseData.forEach(function (book) {
+        pm.expect(book.type).to.be.a('string').and.to.have.lengthOf.at.least(1, "Value should not be empty");
+    });
+});
+

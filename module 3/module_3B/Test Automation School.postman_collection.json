@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "ddd34bba-39f2-4e9c-b38d-14842756032a",
+		"_postman_id": "57313776-86d3-4ed8-be62-c4894159e6db",
 		"name": "Test Automation School",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "26243941"
@@ -14,6 +14,54 @@
 					"item": [
 						{
 							"name": "Create user",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Response status code is 200\", function () {\r",
+											"    pm.expect(pm.response.code).to.equal(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the code field in the response\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData.code).to.exist.and.to.be.a('number');\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the 'type' field in the response\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.type).to.exist.and.to.be.a('string');\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the 'message' field in the response\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.message).to.exist.and.to.be.a('string');\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Response time is within acceptable range\", function () {\r",
+											"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+											"});\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"request": {
 								"method": "POST",
 								"header": [
@@ -296,17 +344,431 @@
 					"item": [
 						{
 							"name": "get books",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Response status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the response body is an array\", function () {\r",
+											"    pm.expect(pm.response.json()).to.be.an('array');\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the 'id' field is a non-negative integer\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('array');\r",
+											"    responseData.forEach(function (book) {\r",
+											"        pm.expect(book.id).to.be.a('number').and.to.be.at.least(0);\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the 'name' field is a non-empty string\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('array');\r",
+											"    responseData.forEach(function (book) {\r",
+											"        pm.expect(book.name).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Value should not be empty\");\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the 'type' field is a non-empty string\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    responseData.forEach(function (book) {\r",
+											"        pm.expect(book.type).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Value should not be empty\");\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "{{url}}/books",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"books"
+									]
+								}
 							},
 							"response": []
 						},
 						{
 							"name": "verify Id",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"check if the id number of untamed is 5\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    console.log(jsonData.name)\r",
+											"    pm.expect(jsonData.id).to.eql(5);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"\r",
+											"pm.test(\"Response status code is 200\", function () {\r",
+											"    pm.expect(pm.response.code).to.equal(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the id field\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.id).to.exist.and.to.be.a('number');\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the name field\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.name).to.exist.and.to.be.a('string', \"Name should be a string\");\r",
+											"    pm.expect(responseData.name).to.have.lengthOf.at.least(1, \"Name should not be empty\");\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the author field\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.author).to.exist.and.to.be.a('string').and.to.not.be.empty;\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Validate the type field\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.type).to.exist.and.to.be.a('string');\r",
+											"});\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "{{url}}/books/:bookid",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"books",
+										":bookid"
+									],
+									"variable": [
+										{
+											"key": "bookid",
+											"value": "5"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Task 4",
+					"item": [
+						{
+							"name": "Order_Book Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"status code is 200\", () => {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Response status code is 200\", function () {\r",
+											"    pm.expect(pm.response.code).to.equal(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Response has required fields\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData).to.have.property('data');\r",
+											"    pm.expect(responseData.data).to.be.an('object');\r",
+											"    pm.expect(responseData.data).to.have.property('bookId');\r",
+											"    pm.expect(responseData.data).to.have.property('customerName');\r",
+											"    pm.expect(responseData.data).to.have.property('bookName');\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"bookId is a non-negative integer\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.json.bookId).to.exist.and.to.be.a('number').and.to.satisfy(function (value) {\r",
+											"        return value >= 0;\r",
+											"    }, \"Value should be a non-negative integer\");\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Customer name is a non-empty string\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.data.customerName).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Value should not be empty\");\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"bookName should be a non-empty string\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.json.bookName).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Value should not be empty\");\r",
+											"});\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{accessToken}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"bookId\":1,\r\n  \"customerName\": \"Fadeke\",\r\n  \"bookName\": \"{{name}}\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://postman-echo.com/post",
+									"protocol": "https",
+									"host": [
+										"postman-echo",
+										"com"
+									],
+									"path": [
+										"post"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Order_Book_Random_Name Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var jsonData = pm.response.json();\r",
+											"console.log(jsonData.data)\r",
+											"\r",
+											"pm.test(\"status code is 200\", () => {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"The book name is The Russian\", function () {\r",
+											"    pm.expect(jsonData.data.name).to.eql(\"{{name}}\");\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Response status code is 200\", function () {\r",
+											"    pm.expect(pm.response.code).to.equal(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"The 'data' object is present in the response\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('object');\r",
+											"    pm.expect(responseData.data).to.exist;\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"The data object contains the required fields\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"    const requiredFields = [\"bookId\", \"customerName\", \"name\", \"author\", \"isbn\", \"type\", \"price\", \"current-stock\", \"available\"];\r",
+											"\r",
+											"    pm.expect(responseData.data).to.exist.and.to.be.an('object');\r",
+											"\r",
+											"    requiredFields.forEach(function (field) {\r",
+											"        pm.expect(responseData.data[field]).to.exist;\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Headers object is present in the response\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData.headers).to.exist;\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Headers object contains the required fields\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"    const requiredFields = [\"x-forwarded-proto\", \"x-forwarded-port\", \"host\", \"x-amzn-trace-id\", \"content-length\", \"content-type\", \"authorization\", \"user-agent\"];\r",
+											"\r",
+											"    pm.expect(responseData.headers).to.be.an('object');\r",
+											"\r",
+											"    requiredFields.forEach(function (field) {\r",
+											"        pm.expect(responseData.headers[field]).to.exist;\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{accessToken}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"bookId\":1,\r\n  \"customerName\": \"Fadeke\",\r\n    \"name\": \"{{name}}\",\r\n    \"author\": \"James Patterson and James O. Born\",\r\n    \"isbn\": \"1780899475\",\r\n    \"type\": \"fiction\",\r\n    \"price\": 12.98,\r\n    \"current-stock\": 12,\r\n    \"available\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://postman-echo.com/post",
+									"protocol": "https",
+									"host": [
+										"postman-echo",
+										"com"
+									],
+									"path": [
+										"post"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get_Books Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"status code is 200\", () => {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"\r",
+											"\r",
+											"pm.test(\"Id is a non-negative integer\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('array');\r",
+											"    responseData.forEach(function (book) {\r",
+											"        pm.expect(book.id).to.be.a('number').and.to.be.at.least(0);\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Name is a non-empty string\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('array');\r",
+											"\r",
+											"    responseData.forEach(function (book) {\r",
+											"        pm.expect(book.name).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Name should not be empty\");\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"Type is a non-empty string\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    pm.expect(responseData).to.be.an('array');\r",
+											"    responseData.forEach(function (book) {\r",
+											"        pm.expect(book.type).to.be.a('string').and.to.have.lengthOf.at.least(1, \"Type should not be empty\");\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											"\r",
+											"pm.test(\"available is a boolean value\", function () {\r",
+											"    const responseData = pm.response.json();\r",
+											"\r",
+											"    responseData.forEach(function (book) {\r",
+											"        pm.expect(book.available).to.be.a('boolean');\r",
+											"    });\r",
+											"});\r",
+											"\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/books",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"books"
+									]
+								}
 							},
 							"response": []
 						}

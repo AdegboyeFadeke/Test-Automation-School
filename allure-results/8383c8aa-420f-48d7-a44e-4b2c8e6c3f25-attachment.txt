@@ -1,0 +1,37 @@
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+pm.test("Response status code is 200", function () {
+    pm.expect(pm.response.code).to.equal(200);
+});
+
+
+pm.test("Validate the code field in the response", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData.code).to.exist.and.to.be.a('number');
+});
+
+
+pm.test("Validate the 'type' field in the response", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.type).to.exist.and.to.be.a('string');
+});
+
+
+pm.test("Validate the 'message' field in the response", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.message).to.exist.and.to.be.a('string');
+});
+
+
+pm.test("Response time is within acceptable range", function () {
+    pm.expect(pm.response.responseTime).to.be.below(2000);
+});
+

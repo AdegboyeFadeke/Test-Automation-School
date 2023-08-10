@@ -1,0 +1,45 @@
+pm.test("status code is 200", () => {
+    pm.response.to.have.status(200);
+});
+
+
+
+pm.test("Id is a non-negative integer", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('array');
+    responseData.forEach(function (book) {
+        pm.expect(book.id).to.be.a('number').and.to.be.at.least(0);
+    });
+});
+
+
+pm.test("Name is a non-empty string", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('array');
+
+    responseData.forEach(function (book) {
+        pm.expect(book.name).to.be.a('string').and.to.have.lengthOf.at.least(1, "Name should not be empty");
+    });
+});
+
+
+pm.test("Type is a non-empty string", function () {
+    const responseData = pm.response.json();
+
+    pm.expect(responseData).to.be.an('array');
+    responseData.forEach(function (book) {
+        pm.expect(book.type).to.be.a('string').and.to.have.lengthOf.at.least(1, "Type should not be empty");
+    });
+});
+
+
+pm.test("available is a boolean value", function () {
+    const responseData = pm.response.json();
+
+    responseData.forEach(function (book) {
+        pm.expect(book.available).to.be.a('boolean');
+    });
+});
+

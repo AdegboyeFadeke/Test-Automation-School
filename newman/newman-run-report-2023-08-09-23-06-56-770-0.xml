@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Automation School" tests="8" time="2.076">
+  <testsuite name="Module 3B / Task 2 / Create user" id="8c37816a-136d-432f-98ae-721889a64206" timestamp="2023-08-09T23:06:53.523Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{baseurl}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 2 / Create user.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response status code is 200" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="expected undefined to equal 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 2 / Create user.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected undefined to equal 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 200
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the code field in the response" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 2 / Create user.]]>
+        <![CDATA[Test description: Validate the code field in the response.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the 'type' field in the response" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 2 / Create user.]]>
+        <![CDATA[Test description: Validate the 'type' field in the response.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the 'message' field in the response" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 2 / Create user.]]>
+        <![CDATA[Test description: Validate the 'message' field in the response.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:5:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is within acceptable range" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 2 / Create user.]]>
+        <![CDATA[Test description: Response time is within acceptable range.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:6:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Module 3B / Task 2 / Delete user" id="93e402f7-597d-4106-a940-07d2148a8429" timestamp="2023-08-09T23:06:53.523Z" tests="0" failures="0" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{baseurl}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Module 3B / Task 2 / Get user by user name" id="03e298dc-9af4-417e-bf2f-4070076a42b5" timestamp="2023-08-09T23:06:53.523Z" tests="0" failures="0" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{baseurl}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Module 3B / Task 3 / get books" id="4b8bb1c2-798b-423b-8224-9f78eff03de0" timestamp="2023-08-09T23:06:53.523Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / get books.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response status code is 200" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / get books.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:2:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the response body is an array" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / get books.]]>
+        <![CDATA[Test description: Validate the response body is an array.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the 'id' field is a non-negative integer" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / get books.]]>
+        <![CDATA[Test description: Validate the 'id' field is a non-negative integer.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the 'name' field is a non-empty string" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / get books.]]>
+        <![CDATA[Test description: Validate the 'name' field is a non-empty string.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:5:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the 'type' field is a non-empty string" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / get books.]]>
+        <![CDATA[Test description: Validate the 'type' field is a non-empty string.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:6:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Module 3B / Task 3 / verify Id" id="42efd2fa-a461-48bc-987e-8cb1fe223f64" timestamp="2023-08-09T23:06:53.523Z" tests="6" failures="6" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+---
+]]></system-err>
+    <testcase name="check if the id number of untamed is 5" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / verify Id.]]>
+        <![CDATA[Test description: check if the id number of untamed is 5.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response status code is 200" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="expected undefined to equal 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / verify Id.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected undefined to equal 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal 200
+   at Object.eval sandbox-script.js:2:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the id field" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / verify Id.]]>
+        <![CDATA[Test description: Validate the id field.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the name field" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / verify Id.]]>
+        <![CDATA[Test description: Validate the name field.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the author field" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / verify Id.]]>
+        <![CDATA[Test description: Validate the author field.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:5:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the type field" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 3 / verify Id.]]>
+        <![CDATA[Test description: Validate the type field.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:6:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Module 3B / Task 4 / Order_Book Copy" id="f82fc031-3adf-45be-a71c-ac3a1220a328" timestamp="2023-08-09T23:06:53.523Z" tests="6" failures="0" errors="0" time="1.809">
+    <testcase name="status code is 200" time="1.809" classname="TestAutomationSchool"/>
+    <testcase name="Response status code is 200" time="1.809" classname="TestAutomationSchool"/>
+    <testcase name="Response has required fields" time="1.809" classname="TestAutomationSchool"/>
+    <testcase name="bookId is a non-negative integer" time="1.809" classname="TestAutomationSchool"/>
+    <testcase name="Customer name is a non-empty string" time="1.809" classname="TestAutomationSchool"/>
+    <testcase name="bookName should be a non-empty string" time="1.809" classname="TestAutomationSchool"/>
+  </testsuite>
+  <testsuite name="Module 3B / Task 4 / Order_Book_Random_Name Copy" id="429ad687-1764-4354-bf7b-de6ffb181d86" timestamp="2023-08-09T23:06:53.523Z" tests="7" failures="0" errors="0" time="0.267">
+    <testcase name="status code is 200" time="0.267" classname="TestAutomationSchool"/>
+    <testcase name="The book name is The Russian" time="0.267" classname="TestAutomationSchool"/>
+    <testcase name="Response status code is 200" time="0.267" classname="TestAutomationSchool"/>
+    <testcase name="The 'data' object is present in the response" time="0.267" classname="TestAutomationSchool"/>
+    <testcase name="The data object contains the required fields" time="0.267" classname="TestAutomationSchool"/>
+    <testcase name="Headers object is present in the response" time="0.267" classname="TestAutomationSchool"/>
+    <testcase name="Headers object contains the required fields" time="0.267" classname="TestAutomationSchool"/>
+  </testsuite>
+  <testsuite name="Module 3B / Task 4 / Get_Books Copy" id="58167508-75a0-44d9-a3e6-c6cf5de839f1" timestamp="2023-08-09T23:06:53.523Z" tests="5" failures="5" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+---
+]]></system-err>
+    <testcase name="status code is 200" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 4 / Get_Books Copy.]]>
+        <![CDATA[Test description: status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id is a non-negative integer" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 4 / Get_Books Copy.]]>
+        <![CDATA[Test description: Id is a non-negative integer.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Name is a non-empty string" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 4 / Get_Books Copy.]]>
+        <![CDATA[Test description: Name is a non-empty string.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Type is a non-empty string" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 4 / Get_Books Copy.]]>
+        <![CDATA[Test description: Type is a non-empty string.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:4:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="available is a boolean value" time="0.000" classname="TestAutomationSchool">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 57313776-86d3-4ed8-be62-c4894159e6db.]]>
+        <![CDATA[Collection name: Test Automation School.]]>
+        <![CDATA[Request name: Module 3B / Task 4 / Get_Books Copy.]]>
+        <![CDATA[Test description: available is a boolean value.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:5:8).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

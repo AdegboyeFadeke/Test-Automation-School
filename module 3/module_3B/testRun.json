@@ -1,0 +1,537 @@
+{
+	"id": "2855683b-d56f-48c3-987e-84e54bfcb571",
+	"name": "Test Automation School",
+	"timestamp": "2023-08-10T15:05:09.359Z",
+	"collection_id": "26243941-57313776-86d3-4ed8-be62-c4894159e6db",
+	"folder_id": 0,
+	"environment_id": "26243941-1f143b95-56af-4d09-857d-f59a00857613",
+	"totalPass": 40,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-10T15:04:54.711Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "8c37816a-136d-432f-98ae-721889a64206",
+			"name": "Create user",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 2876,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response status code is 200": true,
+				"Validate the code field in the response": true,
+				"Validate the 'type' field in the response": true,
+				"Validate the 'message' field in the response": true,
+				"Response time is within acceptable range": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the code field in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the 'type' field in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the 'message' field in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is within acceptable range": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				2876
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response status code is 200": true,
+					"Validate the code field in the response": true,
+					"Validate the 'type' field in the response": true,
+					"Validate the 'message' field in the response": true,
+					"Response time is within acceptable range": false
+				}
+			]
+		},
+		{
+			"id": "93e402f7-597d-4106-a940-07d2148a8429",
+			"name": "Delete user",
+			"url": "https://petstore.swagger.io/v2/user/sint commodo",
+			"time": 270,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				270
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "03e298dc-9af4-417e-bf2f-4070076a42b5",
+			"name": "Get user by user name",
+			"url": "https://petstore.swagger.io/v2/user/sint commodo",
+			"time": 280,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				280
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8d28a2a6-3ade-493d-b35a-01106a154652",
+			"name": "Create user",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response status code is 200": true,
+				"Validate the code field in the response": true,
+				"Validate the 'type' field in the response": true,
+				"Validate the 'message' field in the response": true,
+				"Response time is within acceptable range": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the code field in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the 'type' field in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the 'message' field in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is within acceptable range": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response status code is 200": true,
+					"Validate the code field in the response": true,
+					"Validate the 'type' field in the response": true,
+					"Validate the 'message' field in the response": true,
+					"Response time is within acceptable range": true
+				}
+			]
+		},
+		{
+			"id": "db6396ff-6e24-4859-b468-c5fbe9b38b6b",
+			"name": "Delete user",
+			"url": "https://petstore.swagger.io/v2/user/sint commodo",
+			"time": 897,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				897
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6a48b261-316d-4fe0-a7b2-f36d3001b1c4",
+			"name": "Get user by user name",
+			"url": "https://petstore.swagger.io/v2/user/sint commodo",
+			"time": 2332,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2332
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4b8bb1c2-798b-423b-8224-9f78eff03de0",
+			"name": "get books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 1206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response status code is 200": true,
+				"Validate the response body is an array": true,
+				"Validate the 'id' field is a non-negative integer": true,
+				"Validate the 'name' field is a non-empty string": true,
+				"Validate the 'type' field is a non-empty string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the response body is an array": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the 'id' field is a non-negative integer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the 'name' field is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the 'type' field is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1206
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response status code is 200": true,
+					"Validate the response body is an array": true,
+					"Validate the 'id' field is a non-negative integer": true,
+					"Validate the 'name' field is a non-empty string": true,
+					"Validate the 'type' field is a non-empty string": true
+				}
+			]
+		},
+		{
+			"id": "42efd2fa-a461-48bc-987e-8cb1fe223f64",
+			"name": "verify Id",
+			"url": "https://simple-books-api.glitch.me/books/5",
+			"time": 279,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"check if the id number of untamed is 5": true,
+				"Response status code is 200": true,
+				"Validate the id field": true,
+				"Validate the name field": true,
+				"Validate the author field": true,
+				"Validate the type field": true
+			},
+			"testPassFailCounts": {
+				"check if the id number of untamed is 5": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the id field": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the name field": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the author field": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate the type field": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				279
+			],
+			"allTests": [
+				{
+					"check if the id number of untamed is 5": true,
+					"Response status code is 200": true,
+					"Validate the id field": true,
+					"Validate the name field": true,
+					"Validate the author field": true,
+					"Validate the type field": true
+				}
+			]
+		},
+		{
+			"id": "f82fc031-3adf-45be-a71c-ac3a1220a328",
+			"name": "Order_Book Copy",
+			"url": "https://postman-echo.com/post",
+			"time": 870,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code is 200": true,
+				"Response status code is 200": true,
+				"Response has required fields": true,
+				"bookId is a non-negative integer": true,
+				"Customer name is a non-empty string": true,
+				"bookName should be a non-empty string": true
+			},
+			"testPassFailCounts": {
+				"status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response has required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"bookId is a non-negative integer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Customer name is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"bookName should be a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				870
+			],
+			"allTests": [
+				{
+					"status code is 200": true,
+					"Response status code is 200": true,
+					"Response has required fields": true,
+					"bookId is a non-negative integer": true,
+					"Customer name is a non-empty string": true,
+					"bookName should be a non-empty string": true
+				}
+			]
+		},
+		{
+			"id": "429ad687-1764-4354-bf7b-de6ffb181d86",
+			"name": "Order_Book_Random_Name Copy",
+			"url": "https://postman-echo.com/post",
+			"time": 2440,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code is 200": true,
+				"The book name is The Russian": false,
+				"Response status code is 200": true,
+				"The 'data' object is present in the response": true,
+				"The data object contains the required fields": true,
+				"Headers object is present in the response": true,
+				"Headers object contains the required fields": true
+			},
+			"testPassFailCounts": {
+				"status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The book name is The Russian": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The 'data' object is present in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The data object contains the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers object is present in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Headers object contains the required fields": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2440
+			],
+			"allTests": [
+				{
+					"status code is 200": true,
+					"The book name is The Russian": false,
+					"Response status code is 200": true,
+					"The 'data' object is present in the response": true,
+					"The data object contains the required fields": true,
+					"Headers object is present in the response": true,
+					"Headers object contains the required fields": true
+				}
+			]
+		},
+		{
+			"id": "58167508-75a0-44d9-a3e6-c6cf5de839f1",
+			"name": "Get_Books Copy",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 499,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code is 200": true,
+				"Id is a non-negative integer": true,
+				"Name is a non-empty string": true,
+				"Type is a non-empty string": true,
+				"available is a boolean value": true
+			},
+			"testPassFailCounts": {
+				"status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Id is a non-negative integer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type is a non-empty string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"available is a boolean value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				499
+			],
+			"allTests": [
+				{
+					"status code is 200": true,
+					"Id is a non-negative integer": true,
+					"Name is a non-empty string": true,
+					"Type is a non-empty string": true,
+					"available is a boolean value": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 12230,
+	"collection": {
+		"requests": [
+			{
+				"id": "8c37816a-136d-432f-98ae-721889a64206",
+				"method": "POST"
+			},
+			{
+				"id": "93e402f7-597d-4106-a940-07d2148a8429",
+				"method": "DELETE"
+			},
+			{
+				"id": "03e298dc-9af4-417e-bf2f-4070076a42b5",
+				"method": "GET"
+			},
+			{
+				"id": "8d28a2a6-3ade-493d-b35a-01106a154652",
+				"method": "POST"
+			},
+			{
+				"id": "db6396ff-6e24-4859-b468-c5fbe9b38b6b",
+				"method": "DELETE"
+			},
+			{
+				"id": "6a48b261-316d-4fe0-a7b2-f36d3001b1c4",
+				"method": "GET"
+			},
+			{
+				"id": "4b8bb1c2-798b-423b-8224-9f78eff03de0",
+				"method": "GET"
+			},
+			{
+				"id": "42efd2fa-a461-48bc-987e-8cb1fe223f64",
+				"method": "GET"
+			},
+			{
+				"id": "f82fc031-3adf-45be-a71c-ac3a1220a328",
+				"method": "POST"
+			},
+			{
+				"id": "429ad687-1764-4354-bf7b-de6ffb181d86",
+				"method": "POST"
+			},
+			{
+				"id": "58167508-75a0-44d9-a3e6-c6cf5de839f1",
+				"method": "GET"
+			}
+		]
+	}
+}

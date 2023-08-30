@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37b4967-8e82-44ee-8b6e-c0b9797630b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Module-4/Tasks/Task_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module-4/Tasks/Task_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_11/Class_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_11/Class_B.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <module name="Test-Automation_School" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tasks.*" />
+          <option name="PATTERN" value="Tasks_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

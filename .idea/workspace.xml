@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e37b4967-8e82-44ee-8b6e-c0b9797630b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_13/Class_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_13/Class_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks/Task_16A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks/Task_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks/Task_17B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks/Task_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_14/Class_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_14/Class_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_15/Class_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_15/Class_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_16B/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_16B/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_19/Task_19A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_19/Task_19B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_19/Task_19D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_19C/Class_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-4/Tasks_19C/Class_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module-4/Tasks_13/Class_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module-4/Tasks_13/Class_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test-Automation_School/Tasks_13/Class_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test-Automation_School/Tasks_13/Class_A.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,23 +44,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2UIbyZkyVRrZXpT93kCzb4y8SYQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Task_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tasks.Task_7" />

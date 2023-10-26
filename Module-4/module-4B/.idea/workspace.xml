@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="def57650-b8c7-44a4-a864-ca9a15f86056" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17ee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18FinalCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18checkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task2B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Test-Automation_School.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Test-Automation_School.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2VtW0tveTjX7lGoIitNw3zCBE2h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Fadeke Adeboye/Desktop/quality-assurance/Test-Automation-School",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fadeke Adeboye\Desktop\quality-assurance\Test-Automation-School\Module-4\module-4B\src\test\java\org\example\Tasks\Task17" />
+      <recent name="C:\Users\Fadeke Adeboye\Desktop\quality-assurance\Test-Automation-School\Module-4\module-4B\src\test\java\org\example\Tasks\Task1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.Tasks.Task17" />
+      <recent name="org.example.Tasks" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Tasks.Task14" />
+      <module name="module-4B" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Tasks.Task17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Tasks.Task2" />
+      <module name="module-4B" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Tasks.Task17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task15.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="module-4B" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Tasks.Task17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.Tasks" />
+      <option name="MAIN_CLASS_NAME" value="org.Tasks.Task15" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Task15.test" />
+        <item itemvalue="Application.Task14" />
+        <item itemvalue="Application.Task2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="def57650-b8c7-44a4-a864-ca9a15f86056" name="Changes" comment="" />
+      <created>1695655638947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695655638947</updated>
+    </task>
+    <servers />
+  </component>
+</project>

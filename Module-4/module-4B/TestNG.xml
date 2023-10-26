@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test-Suite">
+    <test name="Tasktest">
+        <classes>
+            <class name="org.example.Tasks.Task17.Task17a"></class>
+            <class name="org.example.Tasks.Task17.Task17b"></class>
+            <class name="org.example.Tasks.Task17.Task17c"></class>
+            <class name="org.example.Tasks.Task17.Task17d"></class>
+            <class name="org.example.Tasks.Task17.Task17a">
+                <methods>
+                    <include name="window"/>
+                </methods>
+            </class>
+            <class name="org.example.Tasks.Task18.Task18Test">
+                <methods>
+                    <include name="TestTask18"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

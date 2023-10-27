@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def57650-b8c7-44a4-a864-ca9a15f86056" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task17/Task17ee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18FinalCheckout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18checkout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task18/Task18login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task2B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Tasks/Task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module_4B/Tasks/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Test-Automation_School.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Test-Automation_School.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
